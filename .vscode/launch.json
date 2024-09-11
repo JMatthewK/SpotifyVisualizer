@@ -6,18 +6,18 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}",
-            "vmArgs": "--module-path C:/Users/matth/Documents/spotifyvisualizerjava/SpotifyVisualizer/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
-            "projectName": "SpotifyVisualizer_d4d548b2",
-            "vmArgs": "--module-path C:/Users/matth/Documents/spotifyvisualizerjava/SpotifyVisualizer/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml"
+            "projectName": "SpotifyVisualizer_9f789fe3",
+            "vmArgs": "--module-path ${workspaceFolder}/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path ${workspaceFolder}/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
