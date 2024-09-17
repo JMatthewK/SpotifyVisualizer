@@ -9,6 +9,13 @@
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
+            "projectName": "SpotifyVisualizer-1_a3d038c7"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
             "projectName": "SpotifyVisualizer_d4d548b2",
             "vmArgs": "--module-path ${workspaceFolder}/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml"
         },
