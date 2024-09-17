@@ -110,6 +110,15 @@ public class Main extends Application implements EventHandler<ActionEvent>{
         Image icon = new Image("file:resources/images/icon.png");
         window.getIcons().add(icon);
         window.setTitle("Spotify Data Visualizer");
+
+        Group root = new Group();
+        Scene homepage = new Scene(root, windowWidth, windowHeight, Color.BLACK);
+
+        window.setScene(homepage);
+        window.show(); 
+
+
+        /* 
         
         // ========= THIS IS THE HOMEPAGE =============
         // Grid Alignment setup
@@ -601,6 +610,7 @@ public class Main extends Application implements EventHandler<ActionEvent>{
         // ============== Showing scene to stage ==================
         window.setScene(homepage);
         window.show();
+        */
     }
 
     @Override
