@@ -105,21 +105,16 @@ public class Main extends Application implements EventHandler<ActionEvent>{
         Font font = Font.loadFont("file:Resources/fonts/coolvetica.otf", 45);
         Font tabFont = Font.loadFont("file:Resources/fonts/coolvetica.otf", 20);
 
+        showHomepage();
+    }
+
+    public void showHomepage(){
+        Stage window = new Stage();
         // Window Setup
         Image icon = new Image("file:resources/images/icon.png");
         window.getIcons().add(icon);
         window.setTitle("Spotify Data Visualizer");
 
-        Group root = new Group();
-        Scene homepage = new Scene(root, windowWidth, windowHeight, Color.BLACK);
-
-        showHomepage();
-
-
-       
-    }
-
-    public void showHomepage(){
         homepage homepage = new homepage(this);
         window.setScene(new Scene(homepage.getPane(), windowWidth, windowHeight, Color.BLACK));
         window.show();
